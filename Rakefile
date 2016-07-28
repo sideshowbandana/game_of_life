@@ -6,6 +6,6 @@ RSpec::Core::RakeTask.new(:spec)
 task :default => :spec
 
 task :run do
-  b = Board.new(60, 120)
+  b = Board.new(30, 60)
   b.run
 end
